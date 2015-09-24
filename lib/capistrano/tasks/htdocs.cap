@@ -1,0 +1,9 @@
+namespace :htdocs do
+    desc "Create symlink for htdocs based on current release"
+      task :create_release_symlink do
+        on roles(:all) do
+            execute :rm, "-f htdocs"
+            execute :ln, "-s $(readlink -f current) htdocs"
+        end
+      end
+  end
