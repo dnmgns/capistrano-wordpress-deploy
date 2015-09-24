@@ -1,6 +1,8 @@
 # Capistrano for Wordpress
 
-## Usage
+## Installation
+
+Git clone the repo and place it in the root of your your wordpress web project.
 
 The following command will install the latest released capistrano v3 revision:
 ```
@@ -12,7 +14,8 @@ I also recommend that you install highline to hide password echo from cli
 sudo gem install highline
 ```
 
-Then, to use capistrano...
+## Usage
+Then, to use capistrano, from your terminal in the wordpress root..
 
 Deploy from git repo
 ```
