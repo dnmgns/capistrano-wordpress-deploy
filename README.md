@@ -32,7 +32,7 @@ Pull any changed or new files from remote uploads to local uploads
 cap <production|stage> wp:uploads:pull
 ```
 
-Set permissions on upload folder [owner: read+write+execute, group: read+write+execute, other: read]
+Set permissions on upload folder [owner: read+write+execute, group: read+execute, other: read+execute,]
 ```
 cap <production|stage> wp:uploads:set_permissions
 ```
