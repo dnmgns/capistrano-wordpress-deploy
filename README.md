@@ -14,6 +14,10 @@ I also recommend that you install highline to hide password echo from cli
 sudo gem install highline
 ```
 
+## Configuration
+
+Configure the staging and production environment by updating config/deploy/production.rb and config/deploy/staging.rb to match your environment.
+
 ## Usage
 Then, to use capistrano, from your terminal in the wordpress root..
 
